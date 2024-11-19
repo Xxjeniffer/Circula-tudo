@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circula - Venda Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Circula</h1>
+        <nav>
+            <ul>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+            <div class="produtos-container">
+                <div class="produto">
+                    <img src="https://chicorei.imgix.net/14068/446eb2a0-08aa-11eb-9bc0-976fbc33629e.jpg?auto=compress,format&q=65" alt="Produto 1">
+                    <a href="https://chicorei.com/camiseta/camiseta-chitaozinho-and-xororo-14068.html" target="_blank">Comprar (link)</a>
+                    <p>Camisa escrito Chitãozinho e Xororó</p>
+                    <p>Preço: R$ 37,90</p>
+                </div>
+               
+                <div class="produto">
+                    <img class="produto-imagem" src="https://m.media-amazon.com/images/I/716EGgqzyOL._SY425_.jpg" alt="Produto 2">
+                    <a href="https://www.amazon.com.br/One-Piece-Ed-Eiichiro-Oda/dp/8573516976" target="_blank">Comprar (linck)</a>
+                    <p>Manga One Piece</p>
+                    <p>Preço: R$ 29,08</p>
+                </div>
+                
+                <div class="produto">
+                    <img src="https://universalmusic.vtexassets.com/arquivos/ids/167433/vinil-duplo-guns-n-roses-use-your-illusion-i-explicit-2lp-importado-vinil-duplo-guns-n-roses-use-your-ill-00720642441510-00072064244151.jpg?v=637705125807300000" alt="Produto 3">
+                    <a href="https://www.mercadolibre.com.uy/guns-n-roses-use-your-illusion-i-cd/p/MLU21963939" target="_blank">Comprar (link)</a>
+                    <p>Disco Guns n' Roses</p>
+                    <p>Preço: R$ 1540,00</p>
+                    </div>
+
+                    <div class="produto">
+                        <img src="https://acdn.mitiendanube.com/stores/001/155/809/products/image0000741-71b3e9907722bb826916946362007397-1024-1024.jpeg" alt="Produto 4">
+                        <a href="https://skalojavirtual.com.br/produtos/tenis-qix-chorao-ii-azul-marinho-branco/ target="_blank">Comprar (link)</a>
+                        <p>Tênis do chorão</p>
+                        <p>Preço: R$ 299,00</p>
+                        </div>
+
+                        <div class="produto">
+                            <img src="https://cdn.awsli.com.br/2500x2500/1356/1356939/produto/272560766/produto-site-palmeiras--11--3l832jbw6g.png" alt="Produto 4">
+                            <a href="https://www.avantipalestrinos.com.br/tcrzvgnwi-camisa-palmeiras-puma-i-2425-patrocinios"_blank">Comprar (link)</a>
+                            <p>Camisa mais linda do mundo</p>
+                            <p>Preço: R$ 108,65</p>
+                            </div>
+
+                            <div class="produto">
+                                <img src="https://hnsg.org.br/wp-content/uploads/2017/12/nao-basta-ser-mulher-moderna-tem-que-se-cuidar.jpg" alt="Produto 4">
+                                <a href="https://www.avantipalestrinos.com.br/tcrzvgnwi-camisa-palmeiras-puma-i-2425-patrocinios"_blank">Comprar (link)</a>
+                                <p>Mãe</p>
+                                <p>Preço: R$ 0,00</p>
+                                </div>
+
+                                <div class="produto">
+                                    <img src="https://a-static.mlcdn.com.br/1500x1500/cilindro-de-massa-manual-aluminio-luxo-pastel-pao-pizza-salgado-botini/perolamaquinasferramentas/000765-16/e26809dc40e43e833b0a0433b9f530f6.jpeg" alt="Produto 4">
+                                    <a href="https://produto.mercadolivre.com.br/MLB-1812295864-cilindro-de-massas-pes-pasteis-pizzas-salgados-n03-botini-_JM?variation=77599706907#reco_item_pos=0&reco_backend=ranker_retrieval_system_vpp_v2p&reco_backend_type=low_level&reco_client=vpp-pdp-v2p-pom&reco_id=04669d72-3647-49a6-8be7-004927be6b70&reco_model=ranker_entity_v2-retrieval-system/mlb/organicos/user-product-triggers/1"_blank">Comprar (link)</a>
+                                    <p>Cilindro</p>
+                                    <p>Preço: R$ 148,55</p>
+                                    </div>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma plataforma dedicada a conectar vendedores e compradores de produtos únicos e de qualidade. Nossa missão é facilitar a compra e venda de produtos, promovendo um ambiente seguro e confiável.</p>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Circula. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
